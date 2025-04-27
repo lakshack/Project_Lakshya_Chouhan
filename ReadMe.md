@@ -38,3 +38,6 @@ To improve generalization and prevent overfitting, dropout layers are incorporat
 optimized using the Adam optimizer, and the loss function used is categorical cross-entropy.
 Data augmentation techniques such as random rotation, horizontal flipping, and brightness
 adjustments are applied to improve robustness against variations in real-world images.
+
+Accuracy metrics
+The model will be evaluated using Accuracy, Precision, Recall, and F1-Score. Accuracy measures the overall correctness of predictions. Precision and Recall assess the model's ability to identify faces with and without masks, while F1-Score balances both. Additionally, a Confusion Matrix will provide detailed insights into prediction performance, and the AUC-ROC curve will measure the model's ability to distinguish between the two classes.
