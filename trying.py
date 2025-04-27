@@ -44,10 +44,10 @@ def test_all():
     the_trainer(model, loader,epochs=epochs,optimizer='afas',loss_fn='adsf')
     print("✅ Training completed.")
 
-    # Step 5: Save model
-    os.makedirs("checkpoints", exist_ok=True)
-    torch.save(model.state_dict(), "checkpoints/final_weights.pth")
-    print("✅ Model weights saved at checkpoints/final_weights.pth")
+    # # Step 5: Save model
+    # os.makedirs("checkpoints", exist_ok=True)
+    # torch.save(model.state_dict(), "checkpoints/final_weights.pth")
+    # print("✅ Model weights saved at checkpoints/final_weights.pth")
 
     # # Step 6: Load weights
     print("🛠️ Loading weights from checkpoint...")
